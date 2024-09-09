@@ -52,14 +52,14 @@ function App() {
         </Canvas>
       </div>
       <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-99/100 h-full box-border z-50">
-        <div className="w-full h-full border-32 border-black rounded-lg relative">
+        <div className="w-full h-full border-32 border-black rounded-lg relative -z-50">
           <div className="text-3xl font-bold left-3 top-1 absolute">
             夢ん舞台に招待したる！
           </div>
         </div>
       </div>
 
-      <div className="m-9">
+      <div className="w-4/5 m-9 flex justify-center">
         <TimeTable />
       </div>
     </>
