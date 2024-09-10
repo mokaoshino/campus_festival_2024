@@ -5,16 +5,19 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Raleway: ['Raleway', 'sans-serif'],
+      },
       borderWidth: {
         '32': '32px',
       },
       width: {
-        '99/100': '99%', 
-        '98/100': '98%',      
+        '99/100': '99%',
+        '98/100': '98%',
       },
       height: {
         '99/100': '99%',
-        '98/100': '98%',     
+        '98/100': '98%',
       }
     },
   },
