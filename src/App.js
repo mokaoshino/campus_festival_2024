@@ -49,15 +49,19 @@ function App() {
           <Model rotationX={rotationX} />
         </Canvas>
       </div>
-      <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-99/100 h-full box-border z-50">
-        <div className="w-full h-full border-32 border-black rounded-lg relative -z-50 ">
-          <div className="text-3xl font-bold left-3 top-1 absolute">
-            夢ん舞台に招待したる！
-          </div>
-        </div>
+      <div className="fixed left-2 bg-black w-8 h-screen">
+      </div>
+      <div className="fixed right-2 bg-black w-8 h-screen">
+      </div>
+      <div className="fixed top-0 left-2 bg-black h-8 w-98/100">
+      </div>
+      <div className="fixed bottom-0 left-2 bg-black h-8 w-98/100">
+      </div>
+      <div className="text-3xl font-bold fixed top-8 left-10">
+        夢ん舞台に招待したる！
       </div>
 
-      <div className="w-4/5 m-9 flex justify-center">
+      <div className="w-4/5 mx-9 flex justify-center">
         <TimeTable />
       </div>
     </>
