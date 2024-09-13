@@ -59,11 +59,11 @@ function App() {
       </div>
       <div className="fixed bottom-0 left-2 bg-black h-8 w-98/100">
       </div> */}
-      <div className="bg-yellow-200 text-4xl p-7 rounded-3xl text-3xl text-3xl font-bold fixed top-4 left-5">
+      <div className="bg-yellow-200 text-4xl p-7 rounded-3xl font-bold fixed top-4 left-5">
         夢ん舞台に招待したる！(画像？)
       </div>
 
-      <div className="bg-yellow-200 text-6xl p-7 rounded-3xl text-3xl font-bold fixed top-4 right-5">
+      <div className="bg-yellow-200 text-6xl p-7 rounded-3xl font-bold fixed top-4 right-5">
         このCPに注いだ思いとは
       </div>
       <div className="w-4/5 mx-9 flex justify-center">
