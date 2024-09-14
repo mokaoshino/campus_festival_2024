@@ -41,7 +41,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-slate-300/90 h-screen w-screen"></div>
+      {/* <div className="bg-slate-300/90 h-screen w-screen"></div> */}
       <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-98/100 h-full -z-40">
         {/* 背景に表示される Canvas */}
         <Canvas camera={{ fov: 30, position: [0, 0, 0] }}>
@@ -62,13 +62,12 @@ function App() {
       <div className="bg-yellow-200 text-4xl p-7 rounded-3xl font-bold fixed top-4 left-5">
         夢ん舞台に招待したる！(画像？)
       </div>
-
-      <div className="bg-yellow-200 text-6xl p-7 rounded-3xl font-bold fixed top-4 right-5">
-        このCPに注いだ思いとは
-      </div>
-      <div className="w-4/5 mx-9 flex justify-center">
-        <TimeTable />
-      </div>
+        <div>
+          <Slogan />
+        </div>
+        <div className="w-4/5 mx-9 flex justify-center">
+          <TimeTable />
+        </div>
     </>
   );
 }
