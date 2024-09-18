@@ -42,7 +42,7 @@ function App() {
   return (
     <>
       {/* <div className="bg-slate-300/90 h-screen w-screen"></div> */}
-      <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-98/100 h-full -z-40">
+      <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full -z-40">
         {/* 背景に表示される Canvas */}
         <Canvas camera={{ fov: 30, position: [0, 0, 0] }}>
           <OrbitControls />
@@ -50,6 +50,8 @@ function App() {
           <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
           <Model rotationX={rotationX} />
         </Canvas>
+      </div>
+      <div className="bg-black bg-opacity-50 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full -z-30">
       </div>
       {/* <div className="fixed left-2 bg-black w-8 h-screen">
       </div>
@@ -59,9 +61,6 @@ function App() {
       </div>
       <div className="fixed bottom-0 left-2 bg-black h-8 w-98/100">
       </div> */}
-      <div className="bg-yellow-200 text-4xl p-7 rounded-3xl font-bold fixed top-4 left-5">
-        夢ん舞台に招待したる！(画像？)
-      </div>
         <div>
           <Slogan />
         </div>
